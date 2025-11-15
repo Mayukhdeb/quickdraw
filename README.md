@@ -1,6 +1,10 @@
 # quickdraw
 a nice wrapper for google's [quickdraw dataset](https://quickdraw.withgoogle.com/data)
 
+```
+pip install git+https://github.com/Mayukhdeb/quickdraw.git
+```
+
 ```python
 dataset = QuickDrawDataset(
     split="train",
